@@ -53,7 +53,7 @@
 		"dulltext"				"1"
 		"brighttext"			"1"
 		"font"					"Grand Finale10"
-		"fgcolor_override"		"155 155 155 255"
+		"fgcolor_override"		"75 75 75 255"
 	}
 
 	"ItemEffectMeter"

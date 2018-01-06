@@ -63,7 +63,7 @@
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
-		"MeterFG"		"White"
+		"MeterFG"		"155 155 155 255"
 		"MeterBG"		"Gray"
 	}
 	
@@ -88,7 +88,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-90"	[$WIN32]
-		"ypos"			"c80"	[$WIN32]
+		"ypos"			"c68"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"500"
 		"tall"			"10"
@@ -101,16 +101,13 @@
 		"fieldName"		"HudBowCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r80"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r21"	[$WIN32]
-		"ypos_minmode"	"r40"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"340"	[$WIN32]
+		"ypos"			"0"
+		"xpos_minmode"	"0"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"60"
-		"wide_minmode"	"50"
-		"tall"			"8"
+		"wide"			"500"
+		"wide_minmode"	"0"
+		"tall"			"10"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -1028,7 +1025,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-100"	[$WIN32]
-		"ypos"			"c80"	[$WIN32]
+		"ypos"			"c68"
 		"wide"			"500"
 		"tall"			"500"
 	}	
