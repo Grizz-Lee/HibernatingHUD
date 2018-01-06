@@ -20,8 +20,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"60"
-		"ypos"			"45"		
+		"xpos"			"92"
+		"ypos"			"42"		
 		"zpos"			"5"
 		"wide"			"100"
 		"tall"			"65"
@@ -30,14 +30,14 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Grand Finale64"
-		"fgcolor"		"white"
+		"fgcolor"		"235 235 235 255"
 	}
 	"PlayerStatusHealthValueBG"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"62"
-		"ypos"			"47"		
+		"fieldName"		"PlayerStatusHealthValueBG"
+		"xpos"			"94"
+		"ypos"			"44"		
 		"zpos"			"4"
 		"wide"			"100"
 		"tall"			"65"
@@ -569,4 +569,47 @@
 		"image"			"../vgui/slowed"
 		"fgcolor"		"TanDark"
 	}
+	/// image ///
+		"PlayerStatusHealthImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImage"
+		"xpos"			"27"
+		"ypos"			"52"
+		"zpos"			"4"
+		"wide"			"38"
+		"tall"			"38"
+		"visible"		"0"
+		"enabled"		"0"
+		"scaleImage"	"1"	
+	}
+
+	"PlayerStatusHealthImageBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthImageBG"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"3"
+		"wide"			"9999"
+		"tall"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/health_bg"
+		"scaleImage"	"1"
+	}	
+
+	"PlayerStatusHealthBonusImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHealthBonusImage"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"2"
+		"wide"			"55"
+		"tall"			"55"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/health_over_bg"
+		"scaleImage"	"1"
 }

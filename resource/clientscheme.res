@@ -296,9 +296,10 @@ Scheme
 		GraphPanel.BgColor				"TransparentBlack"
 
 		Label.TextDullColor				"TanDark"
-		Label.TextColor					"TanLight"
-		Label.TextBrightColor			"TanLight"
-		Label.SelectedTextColor			"White"
+		/// changed Label to gray from TanWhite ///
+		Label.TextColor					"155 155 155 255"
+		Label.TextBrightColor			"155 155 155 255"
+		Label.SelectedTextColor			"155 155 155 255"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"Black"
@@ -3017,12 +3018,23 @@ Scheme
 			}
 		}
 		
-		"Grand Finale"
+		/// Here are the custom fonts bro ///
+		
+		"Grand Finale10"
 		{
 			"1"
 			{
 				"name"		"GRAND FINALE Bold"
-				"tall"		"14"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}
+		"Grand Finale6"
+		{
+			"1"
+			{
+				"name"		"GRAND FINALE Bold"
+				"tall"		"6"
 				"antialias" "1"
 			}
 		}
@@ -3043,6 +3055,26 @@ Scheme
 			{
 				"name"		"GRAND FINALE Bold"
 				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		
+		"Grand Finale24"
+		{
+			"1"
+			{
+				"name"		"GRAND FINALE Bold"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		
+		"Grand Finale30"
+		{
+			"1"
+			{
+				"name"		"GRAND FINALE Bold"
+				"tall"		"30"
 				"antialias" "1"
 			}
 		}

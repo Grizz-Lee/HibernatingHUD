@@ -1,0 +1,43 @@
+"Resource/UI/HudDemomanCharge.res"
+{	
+	"ChargeMeter"
+	{	
+		"ControlName"	"ContinuousProgressBar"
+		"fieldName"		"ChargeMeter"
+		"font"			"Grand Finale6"
+		"xpos"			"10"
+		"ypos"			"0"
+		"zpos"			"2"
+		"wide"			"150"
+		"tall"			"8"				
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"center"
+		"dulltext"		"1"
+		"brighttext"	"1"
+	}		
+	/// STICKY ///
+	"ChargeMeterLabel"
+	{
+		"ControlName" 		"CExLabel"
+		"fieldName" 		"ChargeMeterLabel"
+		"xpos" 				"15"
+		"ypos" 				"0"
+		"zpos" 				"3"
+		"wide" 				"150"
+		"tall" 				"8"
+		"autoResize" 		"1"
+		"pinCorner" 		"2"
+		"visible" 			"1"
+		"enabled" 			"1"
+		"tabPosition" 		"0"
+		"labelText" 		"CHARGE"
+		"textAlignment" 	"center"
+		"dulltext" 		  	"0"
+		"brighttext" 	   	"0"
+		"font" 			  	"Grand Finale10"
+		"fgcolor_override" 	"75 75 75 255"
+	}	
+}
