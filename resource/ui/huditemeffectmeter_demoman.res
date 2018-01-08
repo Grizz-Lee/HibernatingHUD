@@ -52,6 +52,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Grand Finale16"
+		"fgcolor_override"		"235 226 202 255"
 	}
 
 	"ItemEffectMeter"
@@ -94,5 +95,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Grand Finale30"
+		"fgcolor_override"		"235 226 202 255"
 	}
 }

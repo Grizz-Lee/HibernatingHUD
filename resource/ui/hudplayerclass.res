@@ -246,11 +246,11 @@
 			}
 			"Pyro"
 			{
-				"fov"			"20"
-				"angles_x"		"-5"
+				"fov"			"26"
+				"angles_x"		"-6"
 				"angles_x_minmode"	"0"
-				"angles_y"		"200"
-				"angles_z"		"-5"
+				"angles_y"		"180"
+				"angles_z"		"-0"
 				"origin_x"		"175"
 				"origin_y"		"-5"
 				"origin_z"		"-90"

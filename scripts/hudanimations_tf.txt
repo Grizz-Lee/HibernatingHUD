@@ -436,11 +436,13 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"TanWhite"	Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"Purple"	Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"Cherry"	Linear 0.2 0.3
 	
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"Pink"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"Purple"	Linear 0.3 0.4
+	Animate	ChargeMeter 	FgColor		"Cherry"	Linear 0.2 0.3
 
 	RunEvent HudMedicChargedLoop	0.6
 }

@@ -55,31 +55,23 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"xpos_minmode"	"r52"	[$WIN32]
-		"ypos"			"r52"	[$WIN32]
-		"ypos_minmode"	"r50"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
-		"wide"			"100"
+		"xpos"			"c-50"
+		"ypos"			"c50"
+		"wide"			"200"
 		"tall"			"50"
-		"MeterFG"		"155 155 155 255"
+		"MeterFG"		"122 122 122 255"
 		"MeterBG"		"Gray"
 	}
 	
 	HudMedicCharge
 	{
-		"fieldName"		"HudMedicCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"r138"	[$WIN32]
-		"xpos_minmode"	"r100"	[$WIN32]
-		"ypos"			"r69"	[$WIN32]
-		"ypos_minmode"	"r34"	[$WIN32]
-		"xpos"			"r174"	[$X360]
-		"ypos"			"r90"	[$X360]
-		"wide"			"200"
-		"tall"			"100"
+		"fieldName"			"HudMedicCharge"
+		"visible"			"1"
+		"enabled"			"1"
+		"xpos"				"0"
+		"ypos"				"c50"
+		"wide"				"f0"
+		"tall"				"300"
 	}
 	
 	HudDemomanCharge
@@ -87,11 +79,11 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-90"	[$WIN32]
-		"ypos"			"c68"	[$WIN32]
+		"xpos"			"c-88"	[$WIN32]
+		"ypos"			"c110"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"500"
-		"tall"			"10"
+		"tall"			"100"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}	
@@ -409,7 +401,7 @@
 
 		"PaintBackgroundType"	"2"
 	}
-
+/// damage numbers possible? ///
 	HudDamageIndicator
 	{
 
@@ -1385,7 +1377,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-235"
-		"ypos"			"c-52"
+		"ypos"			"c-130"
 		"ypos_hidef"	"c-42"
 		"ypos_lodef"	"c-42"
 		"wide"			"470"

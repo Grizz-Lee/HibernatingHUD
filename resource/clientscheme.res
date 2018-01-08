@@ -74,6 +74,9 @@ Scheme
 		"CreditsGreen"		"94 150 49 255"
 		
 		"Gray"				"178 178 178 255"
+		"Purple"			"193 64 224 255"
+		"Pink"				"205 71 158 255"
+		"Cherry"			"205 71 108 255"
 
 		"Blank"				"0 0 0 0"
 		"ForTesting"		"255 0 0 32"
@@ -297,9 +300,9 @@ Scheme
 
 		Label.TextDullColor				"TanDark"
 		/// changed Label to gray from TanWhite ///
-		Label.TextColor					"155 155 155 255"
-		Label.TextBrightColor			"155 155 155 255"
-		Label.SelectedTextColor			"155 155 155 255"
+		Label.TextColor					"235 226 202 255"
+		Label.TextBrightColor			"235 226 202 255"
+		Label.SelectedTextColor			"235 226 202 255"
 		Label.BgColor					"Blank"
 		Label.DisabledFgColor1			"Blank"
 		Label.DisabledFgColor2			"Black"
@@ -3019,7 +3022,7 @@ Scheme
 		}
 		
 		/// Here are the custom fonts bro ///
-		
+
 		"Grand Finale10"
 		{
 			"1"
@@ -3109,6 +3112,136 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"Grand Finale641"
+		{
+			"1"
+			{
+				"name"		"GRAND FINALE Bold"
+				"tall"		"64"
+				"weight"	"700"
+				"antialias" "1"
+			}
+		}
+		"Grand Finale642"
+		{
+			"1"
+			{
+				"name"		"GRAND FINALE Bold"
+				"tall"		"64"
+				"weight"	"900"
+				"antialias" "1"
+			}
+		}
+		
+		"Champagne & Limousines Bold16"
+		{
+			"1"
+			{
+				"name"		"Champagne & Limousines Bold"
+				"tall"		"16"
+				"antialias"	"1"
+			}
+		}
+		
+		"Champagne & Limousines Bold20"
+		{
+			"1"
+			{
+				"name"		"Champagne & Limousines Bold"
+				"tall"		"20"
+				"antialias"	"1"
+			}
+		}
+		
+		"Champagne & Limousines Bold24"
+		{
+			"1"
+			{
+				"name"		"Champagne & Limousines Bold"
+				"tall"		"24"
+				"antialias"	"1"
+			}
+		}
+		
+		"Champagne & Limousines Bold30"
+		{
+			"1"
+			{
+				"name"		"Champagne & Limousines Bold"
+				"tall"		"30"
+				"antialias"	"1"
+			}
+		}
+		
+		"Champagne & Limousines Bold36"
+		{
+			"1"
+			{
+				"name"		"Champagne & Limousines Bold"
+				"tall"		"36"
+				"antialias"	"1"
+			}
+		}
+		
+		"PRIMETIME36"
+		{
+			"1"
+			{
+				"name"		"PRIMETIME Regular"
+				"tall"		"36"
+				"antialias"	"1"
+			}
+		}
+		
+		"PRIMETIME64"
+		{
+			"1"
+			{
+				"name"		"PRIMETIME Regular"
+				"tall"		"64"
+				"antialias"	"1"
+			}
+		}
+		
+		"PRIMETIME24"
+		{
+			"1"
+			{
+				"name"		"PRIMETIME Regular"
+				"tall"		"24"
+				"antialias"	"1"
+			}
+		}
+		
+		"SuiGenerisRg-Regular6"
+		{
+			"1"
+			{
+				"name"		"SuiGenerisRg-Regular"
+				"tall"		"6"
+				"antialias" "1"
+				}
+		}
+		
+		"SuiGenerisRg-Regular8"
+		{
+			"1"
+			{
+				"name"		"SuiGenerisRg-Regular"
+				"tall"		"8"
+				"antialias" "1"
+				}
+		}
+		
+		"SuiGenerisRg-Regular10"
+		{
+			"1"
+			{
+				"name"		"SuiGenerisRg-Regular"
+				"tall"		"10"
+				"antialias" "1"
+				}
+		}
 		
 		"SuiGenerisRg-Regular12"
 		{
@@ -3130,6 +3263,16 @@ Scheme
 			}
 		}
 		
+		"SuiGenerisRg-Regular24"
+		{
+			"1"
+			{
+				"name"		"SuiGenerisRg-Regular"
+				"tall"		"24"
+				"antialias" "1"
+				}
+		}
+		
 		"SuiGenerisRg-Regular30"
 		{
 			"1"
@@ -3146,7 +3289,6 @@ Scheme
 			{
 				"name"		"SuiGenerisRg-Regular"
 				"tall"		"50"
-				"weight" 	"700"
 				"antialias" "1"
 			}
 		}
