@@ -39,12 +39,25 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"AmmoBG"
 		"xpos"			"75"
-		"ypos"			"50"
+		"ypos"			"51"
 		"wide"			"87"
 		"tall"			"51"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"0 0 0 0"
+	}
+	"AmmoLowBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"AmmoLowBG"
+		"xpos"			"75"
+		"ypos"			"51"
+		"wide"			"87"
+		"tall"			"51"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"255 75 75 255"
+		"alpha"			"0"
 	}
 
 	"AmmoInClip"

@@ -3023,6 +3023,8 @@ Scheme
 		
 		/// Here are the custom fonts bro ///
 
+		#base "scheme/clientscheme_fonts.res"
+		
 		"Grand Finale10"
 		{
 			"1"

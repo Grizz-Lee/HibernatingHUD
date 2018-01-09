@@ -53,15 +53,41 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HealthBG"
-		"xpos"			"88"
-		"ypos"			"50"
+		"xpos"			"89"
+		"ypos"			"51"
+		"wide"			"82"
+		"tall"			"51"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 0"
+	}
+	"HealthBGBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBGBuff"
+		"xpos"			"89"
+		"ypos"			"51"
 		"wide"			"82"
 		"tall"			"51"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"51 255 175 255"
+		"alpha"			"0"
 	}
-
+	"HealthBGDanger"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthBGDanger"
+		"xpos"			"89"
+		"ypos"			"51"
+		"wide"			"82"
+		"tall"			"51"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"255 75 75 255"
+		"alpha"			"0"
+	}
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
